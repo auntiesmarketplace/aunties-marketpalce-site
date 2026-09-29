@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auntys Marketplace — Coming Soon</title>
+  <meta name="description" content="Auntys Marketplace is coming soon. Join the list to hear first when we open.">
+  <meta name="theme-color" content="#1f4d2b">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="#home" class="brand">Auntys Marketplace</a>
+    <nav class="tabs" aria-label="Sections">
+      <a href="#home" class="tab">Home</a>
+      <a href="#about" class="tab">About</a>
+      <a href="#coming" class="tab">What's Coming</a>
+      <a href="#notify" class="tab">Notify Me</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <p class="eyebrow">Coming soon</p>
+      <h1>Auntys Marketplace</h1>
+      <p class="lead">Something warm and homegrown is on its way. Be the first to know when our doors open.</p>
+      <a href="#notify" class="btn">Get early access</a>
+    </section>
+
+    <section id="about" class="section dark wavy">
+      <div class="container narrow">
+        <h2>About</h2>
+        <p>Auntys Marketplace is a place for good things made with care — the kind of goods you'd find at a favourite aunty's kitchen table, gathered in one friendly spot online.</p>
+        <p>We're putting the finishing touches on the shop now.</p>
+      </div>
+    </section>
+
+    <section id="coming" class="section alt">
+      <div class="container">
+        <h2>What's Coming</h2>
+        <div class="cards">
+          <article class="card">
+            <span class="card-icon" aria-hidden="true">🧺</span>
+            <h3>Curated goods</h3>
+            <p>A hand-picked selection, chosen with the same care you'd give a gift.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon" aria-hidden="true">🌿</span>
+            <h3>Made with care</h3>
+            <p>Home made goods by aunties local to you.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon" aria-hidden="true">📦</span>
+            <h3>Easy ordering</h3>
+            <p>A simple, friendly shop that works just as well on your phone.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="notify" class="section">
+      <div class="container narrow">
+        <h2>Notify Me</h2>
+        <p>Leave your email and we'll let you know the moment we launch. No spam, ever.</p>
+
+        <!-- Replace YOUR_FORM_ID with your Formspree form ID (see README). -->
+        <form id="signup" class="signup" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+          <label for="email" class="visually-hidden">Email address</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+          <button type="submit" class="btn">Notify me</button>
+        </form>
+        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Auntys Marketplace</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
