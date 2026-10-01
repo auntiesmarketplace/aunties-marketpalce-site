@@ -1,5 +1,5 @@
 # auntys-marketpalce-site
-Auntys Marketplace Site — a single-page "coming soon" site with email sign-up, hosted on GitHub Pages.
+Aunties Marketplace Site — a single-page "coming soon" site with email sign-up, hosted on GitHub Pages.
 
 ## Files
 - `index.html` — page content and sections
